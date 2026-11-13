@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-page text-txt;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply rounded border border-line bg-panel;
+  }
+  .field {
+    @apply w-full rounded border border-line bg-page px-3 py-2 text-sm text-txt outline-none placeholder:text-muted focus:border-accent;
+  }
+  .btn {
+    @apply rounded border px-3 py-1.5 text-sm text-txt;
+  }
+  .btn-primary {
+    @apply btn border-accent bg-accent text-white hover:bg-accent-hover disabled:opacity-50;
+  }
+  .btn-plain {
+    @apply btn border-line text-muted hover:text-txt disabled:opacity-50;
+  }
+  .link {
+    @apply cursor-pointer text-muted hover:text-txt hover:underline;
+  }
+  .caption {
+    @apply text-xs text-muted;
+  }
+  .heading {
+    @apply text-base font-semibold text-txt;
+  }
+}

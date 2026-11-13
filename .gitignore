@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+venv/
+.env/
+.coverage
+htmlcov/
+
+# Secrets and local dev database
+# Uploaded sources: registry holds connection strings
+backend/data/
+.env
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
