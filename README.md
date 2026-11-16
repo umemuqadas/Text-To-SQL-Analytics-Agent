@@ -248,7 +248,7 @@ text-to-sql-agent/
 - [x] Phase 7 — Schema retrieval, conversation memory, error-repair loop, history
 - [x] Phase 8 — Uploadable datasources (SQLite, CSV/Excel, SQL dump, connection URL)
   with per-source allow-lists and a schema-aware offline generator
-- [ ] Phase 9 — Evaluation harness: run a question→SQL gold set and report
+- [x] Phase 9 — Evaluation harness: run a question→SQL gold set and report
   execution accuracy, exact-match rate, rejection rate and p95 latency
 
 ## Portfolio positioning
